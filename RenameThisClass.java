@@ -18,8 +18,11 @@ public class RenameThisClass
         string1.equals(string2);
         String string3 = "I am also a string";
         boolean stringsequal = string1.equals(string3);
+        String[] array = {"Alpha", "Bravo", "Charlie", "Delta", "Echo"};
+        for (String  = 0; i < array.length; ++) {
+            System.out.println(array[]);
+        }
         System.out.println(i++);   
         System.out.println(f);
     }
 }
-
