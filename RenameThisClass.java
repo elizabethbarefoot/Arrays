@@ -21,7 +21,7 @@ public class RenameThisClass
         String[] myArray = {"Alpha", "Bravo", "Charlie", "Delta", "Echo"};
         for (int idx = 0; idx < myArray.length; idx++) {
             System.out.print(myArray[idx]);
-            if (idx < 4)
+            if (idx !=myArray.length -1)
                 System.out.print("-");
         }
     }
